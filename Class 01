@@ -1,0 +1,20 @@
+console.log('Hello World');
+/*new code*/
+var variable1 = 1;
+var variable2 = 2;
+var variable3 = 3;
+if (variable1 === 1){
+    console.log(variable1);
+    if ((variable2 === 1)) {
+        console.log(variable2);
+    }
+    else{
+        console.log(variable3);
+    }
+}
+/*new code*/
+function sayHello(name: string): string{
+    return 'Hello, $[name]!';
+}
+const greeting = sayHello("TypeScript");
+console.log(greeting);
