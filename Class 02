@@ -1,0 +1,32 @@
+console.log("Hello World");
+//----------------------------------------------------------------------
+let powder: string = "lal mirch powder";
+console.log(powder);  
+-----------------------------------------------------------------------
+const masala = "lal mirch masala";
+console.log(masala);
+//------------------------------------------------------------------------
+let fullName = "Naveen Kumar";
+let age = "19";
+console.log(fullName);
+//-------------------------------------------------------------------------
+let FirstName = "Naveen";
+let LastName = "Kumar";
+
+console.log(FirstName + LastName);
+console.log(`My name is ${FirstName} ${LastName}`);
+//-------------------------------------------------------------------------
+let qty = 2;
+
+console.log(qty + 10);
+console.log(qty - 1);
+console.log(qty * 12000);
+console.log(qty / 3);
+//-------------------------------------------------------------------------- 
+let age = 22;
+age = 10;
+age += 10;
+age -= 10;
+console.log(age)
+
+
