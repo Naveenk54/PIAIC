@@ -1,0 +1,59 @@
+let StudentGender = "FeMale";
+
+if(StudentGender == "Male"){
+    console.log("Enter by left side");
+}
+
+else{
+    console.log("Enter by right side");
+}
+//-------------------------------------------------------------------------
+let salary = 40000;
+let MonthlyExpense = 80000;
+if(salary == 80000){
+    console.log("you have not enough money");
+}
+else{
+    console.log("you have enough money");
+}
+//======================================================================
+console.log("Taking Decision");
+let raita = false;
+let biscuit = true;
+if(raita){
+    console.log("Buy samosa");
+}
+else if(biscuit){
+    console.log("Buy biscuit");
+}
+else{
+    console.log("Don't buy");
+}
+//========================================================================
+console.log("Taking Decision");
+let budget = 40000;
+let cycle = 50000;
+let color = "Blue";
+if(cycle <= budget){
+    if(color == "Black"){
+    console.log("Buy Cycle");
+    }
+    else{
+        console.log("Color is not matched");
+    }
+}
+else{
+    console.log("Earn more");
+}
+//---------------------------------------------------------------------
+console.log("Taking Decision");
+let budget = 40000;
+let cycle = 50000;
+let color = "Blue";
+if(cycle <= budget && color == "Black" || color == "Blue"){
+    console.log("Buy Cycle");
+}
+else{
+    console.log("Earn more");
+}
+//---------------------------------------------------------------------
